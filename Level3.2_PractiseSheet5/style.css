@@ -1,0 +1,43 @@
+div {
+    height: 250px;
+    width: 500px;
+    background-image: url('flower.jpg');
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    border: 15px solid black; /* add a pink border around the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    left:0px;
+    top:50px;
+
+
+    /* Task 2:Use the appropriate property for the dic element to place 
+    it at the right end of the page(the div should not move even on the scroll)*/ 
+
+    /*We have different types of positions there for display such as 
+      Static 
+      Absolute 
+      Relative 
+      Fixed 
+      Sticky 
+    */
+
+    /* 
+          "absolute" positioning places an element relative to its nearest positioned ancestor,
+          while "fixed" positioning places an element relative to the viewport,
+
+
+    position:fixed;
+    right:0px;
+    top:50px;
+
+
+    */
+
+
+
+    
+}
