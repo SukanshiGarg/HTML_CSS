@@ -4,18 +4,21 @@ body{
 
 div{
     height:100px;
-    width:100px;
+    width:50px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container{
     width: 800px;
-    height:500px;
+    height:300px; 
     display: flex;
-    flex-direction:column-reverse;
-   
-}
+    flex-direction:row;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    align-items:flex-start;
+    /* align-content: flex-end; */
+} 
 
 #box1{
     background-color: aqua;
@@ -24,10 +27,13 @@ div{
 
 #box2{
     background-color: PINK;
+    height:200px;
+    /* flex-grow:1; */
 }
 
 #box3{
-    background-color:darkkhaki ;
+    background-color:darkkhaki;
+    height:75px;
 }
 
 #box4{
